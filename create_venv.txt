@@ -1,0 +1,11 @@
+ $ cd path/to/your/folder
+ $ python3 -m venv venv 
+ $ source venv/bin/activate
+ $ python --version
+ $ pip install package_name
+ $ deactivate
+
+- En la linea 2 el segundo venv es como tu lo quieras llamar, normalmente se usa el mismo venv pero le puedes poner juanchito si quieres.
+- En la linea 3 es el nombre de tu venv y el resto
+- En la linea 5 puedes instalar todo lo que requieras
+- En la linea 6 te puedes salir, aunque no pasa nada si solo lo cierras o lo dejas corriendo
