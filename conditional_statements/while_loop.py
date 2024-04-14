@@ -16,7 +16,7 @@ print(f"The number you typed is: {numero}")
 
 #Requirement: The client needs a system that allows to decide if the flow continues or not
 #by input a "Yes/Y/yes/y", else, if the user types "No/N/no/n" it returns "Canceled execution"
-#either way the loop will break when given a valid answer (Y o N)
+#either way the loop will break when given a valid answer (Y or N)
 #if the system does nor receive one of those options it needs to keep asking the user
 
 while True:
