@@ -50,5 +50,5 @@ employeeData("Maleny", 6808, "Mexico")
 def studentData(**data):
     print(data)
 
-studentData(name = "Magdalena", lastName= "Ochoa", campus = "Mexico")
+studentData(name = "Magdalena", lastName= "Ochoa", campus = "Mexico") 
 
