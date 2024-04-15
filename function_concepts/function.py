@@ -34,6 +34,21 @@ print(f"The result is: {result}")
 #Pass list value to the function
 def listValue(elements):
     for element in elements:     
-        print(element, end = ',') #Use 'end' parameter to print all in one line
+        print(element) #Use 'end = ','' parameter to print all in one line
 listValue(range(0,3)) #instead of a list i'm using a range of values
+
+#key and value function as argument
+def employeeData(name, id, address):
+    print("Name:", name)
+    print("ID:",id)
+    print("Address:",address)
+
+employeeData("Maleny", 6808, "Mexico")
+
+#If you don't know how many arguments you will need to pass to your function
+#you can add two '**' before the parameter name in the function definition
+def studentData(**data):
+    print(data)
+
+studentData(name = "Magdalena", lastName= "Ochoa", campus = "Mexico")
 
